@@ -29,7 +29,8 @@ header {
     width: 80px;    
     object-fit: contain;
     margin: 0;    
-
+    margin-top: 15px;      
+    transform: translateY(-10px); 
 }
 .menu-btn {
     font-size: 20px;
