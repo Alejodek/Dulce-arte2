@@ -43,7 +43,14 @@ header {
 .menu-icon{
     width: 20px;
     height: 20px;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
 }
+
+.menu-icon:hover{
+    background-color: #eda557cb;
+}
+
 .sidebar {
     background: white;
     width: 250px;
