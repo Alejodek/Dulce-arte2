@@ -29,8 +29,7 @@ header {
     width: 80px;    
     object-fit: contain;
     margin: 0;    
-    margin-top: 15px;      
-    transform: translateY(-10px); 
+
 }
 .menu-btn {
     font-size: 20px;
@@ -43,14 +42,7 @@ header {
 .menu-icon{
     width: 20px;
     height: 20px;
-    transition: background-color 0.5s ease;
-    border-radius: 5px;
 }
-
-.menu-icon:hover{
-    background-color: #eda557cb;
-}
-
 .sidebar {
     background: white;
     width: 250px;
@@ -77,10 +69,10 @@ header {
 
 .sidebar-header {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 5px;
 }
-
 .sidebar::before {
     content: "";
     display: block;
@@ -97,12 +89,12 @@ header {
 }
 
 .sidebar-logo {
-    width: 100px;
-    height: 100px;
-    justify-content: center;
-    align-self: center;
+    width: 115px;
+    height: 115px;
     object-fit: contain;
+    border-radius: 50%;
 }
+
 
 .overlay {
     display: none;
@@ -329,7 +321,6 @@ p, span, a {
     border-radius: 50%;
     transition: background 0.3s, transform 0.2s;
 }
-
 .social-icons-sidebar img {
     width: 40px;
     height: 40px;
@@ -340,7 +331,6 @@ p, span, a {
     opacity: 0.9;
     transition: transform 0.3s, opacity 0.3s;
 }
-
 .social-icons-sidebar {
     display: flex;
     gap: 10px;
@@ -372,7 +362,6 @@ p, span, a {
 .producto:hover div {
     color: #eda557cb; /* color al pasar el cursor */
 }
-
 .producto div strong {
     color: #333; /* precio normal */
     transition: color 0.3s ease;
@@ -381,11 +370,9 @@ p, span, a {
 .producto:hover div strong {
     color: #eda557cb; /* color del precio al hover */
 }
-
 .producto-lista a{
     text-decoration: none;
 }
-
 .lista-link{
     text-decoration: none;
 }
